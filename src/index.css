@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #131518;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 412px;
+  min-width: 327px;
+  height: 416px;
+  min-height: 360px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  border-radius: 30px;
+  padding: 32px;
+  margin: 0 24px 0 24px;
+}
+
+.heading {
+  color: white;
+  font-size: 28px;
+}
+
+p {
+  color: #969FAD;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.iconDiv {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262E38;
+  border-radius: 50%;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.rateBtn {
+  width: 48px;
+  height: 48px;
+  color: #7C8798;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #262E38;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rateBtn:hover {
+  color: white;
+  background-color: #7C8798;
+  transition: 0.5s ease-in;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  color: white;
+  background-color: #FC7614;
+  border: none;
+  border-radius: 22.5px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+ .submitBtn:hover {
+  color: #FC7614;
+  background-color: white;
+  transition: 0.5s ease-in;
+ }
+
+ .result {
+  margin: 36px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FC7614;
+  background-color: #262E38;
+  border-radius: 22.5px;
+  width: 192px;
+  height: 32px;
+ }
+
+ .active {
+  color: white;
+  background-color: #FC7614;
+ }
